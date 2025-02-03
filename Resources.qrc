@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Pic/Screenshot from 2024-04-21 17-21-49.png</file>
+        <file>Pic/dfBsSVmTTfw.jpg</file>
+        <file>Pic/2R29wny3fUk.jpg</file>
+        <file>Pic/serega-pirat-moj-topor-mp3.mp3</file>
+        <file>Pic/gHs8iVIXmcs.jpg</file>
+        <file>Pic/x_BME5b_DCE.jpg</file>
+        <file>Pic/01 - Genshin Impact Main Theme.mp3</file>
+        <file>Pic/FlIEMMAaYAA3LoF.jpg</file>
+    </qresource>
+</RCC>

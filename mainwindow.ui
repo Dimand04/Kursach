@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="authorization_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1000</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>160</y>
+       <width>300</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 183);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>1000</y>
+       <width>1280</width>
+       <height>720</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_login">
+     <property name="geometry">
+      <rect>
+       <x>602</x>
+       <y>434</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Войти</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_login">
+     <property name="geometry">
+      <rect>
+       <x>505</x>
+       <y>270</y>
+       <width>270</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 183);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Логин</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_password">
+     <property name="geometry">
+      <rect>
+       <x>505</x>
+       <y>368</y>
+       <width>270</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 183);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Пароль</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1280</width>
+       <height>720</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/new/prefix1/Pic/gHs8iVIXmcs.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label</zorder>
+    <zorder>BTN_login</zorder>
+    <zorder>le_login</zorder>
+    <zorder>le_password</zorder>
+   </widget>
+   <widget class="QFrame" name="main_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>188</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QPushButton" name="BTN_Autho">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>670</y>
+       <width>130</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Выйти</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>11</y>
+       <width>183</width>
+       <height>698</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_profile">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>16</y>
+       <width>173</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushLabel" name="qlb_manga">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>160</y>
+       <width>171</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string>Манга</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushLabel" name="qlb_profile">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>21</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_username">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>21</y>
+       <width>97</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_themechange">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>550</y>
+       <width>39</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Тема</string>
+     </property>
+    </widget>
+    <widget class="QPushLabel" name="qlb_anime">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>232</y>
+       <width>171</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string>Аниме</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>label_6</zorder>
+    <zorder>BTN_Autho</zorder>
+    <zorder>lb_profile</zorder>
+    <zorder>qlb_manga</zorder>
+    <zorder>qlb_profile</zorder>
+    <zorder>lb_username</zorder>
+    <zorder>btn_themechange</zorder>
+    <zorder>qlb_anime</zorder>
+   </widget>
+   <widget class="QFrame" name="profile_frame">
+    <property name="geometry">
+     <rect>
+      <x>188</x>
+      <y>1000</y>
+      <width>1092</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>11</y>
+       <width>1087</width>
+       <height>699</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="tabPosition">
+      <enum>QTabWidget::North</enum>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Профиль</string>
+      </attribute>
+      <widget class="QPushLabel" name="lb_profile_avatar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>150</width>
+         <height>150</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_profile_name">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>10</y>
+         <width>381</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_delete_user">
+       <property name="geometry">
+        <rect>
+         <x>920</x>
+         <y>4</y>
+         <width>155</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Удалить аккаунт</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Избранное</string>
+      </attribute>
+      <widget class="QTableWidget" name="tableWidget1">
+       <property name="geometry">
+        <rect>
+         <x>-2</x>
+         <y>-2</y>
+         <width>1087</width>
+         <height>645</height>
+        </rect>
+       </property>
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOn</enum>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="tabKeyNavigation">
+        <bool>false</bool>
+       </property>
+       <property name="showDropIndicator" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::NoSelection</enum>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+       <property name="showGrid">
+        <bool>false</bool>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::NoPen</enum>
+       </property>
+       <property name="columnCount">
+        <number>5</number>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>291</number>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="manga_frame">
+    <property name="geometry">
+     <rect>
+      <x>188</x>
+      <y>0</y>
+      <width>1092</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>11</y>
+       <width>1045</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>897</x>
+       <y>57</y>
+       <width>161</width>
+       <height>652</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>16</y>
+       <width>789</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>57</y>
+       <width>873</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="tabKeyNavigation">
+      <bool>false</bool>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropOverwriteMode">
+      <bool>true</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectItems</enum>
+     </property>
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::NoPen</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>291</number>
+     </attribute>
+     <attribute name="horizontalHeaderHighlightSections">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderHighlightSections">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+    </widget>
+    <widget class="QPushButton" name="btn_add_new_manga">
+     <property name="geometry">
+      <rect>
+       <x>934</x>
+       <y>16</y>
+       <width>88</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_search">
+     <property name="geometry">
+      <rect>
+       <x>814</x>
+       <y>16</y>
+       <width>88</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget3">
+     <property name="geometry">
+      <rect>
+       <x>896</x>
+       <y>56</y>
+       <width>163</width>
+       <height>175</height>
+      </rect>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>150</number>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string/>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>genre</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="qpb_genre_sort">
+     <property name="geometry">
+      <rect>
+       <x>928</x>
+       <y>236</y>
+       <width>99</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Сортировать</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="manga_add_frame">
+    <property name="geometry">
+     <rect>
+      <x>211</x>
+      <y>1000</y>
+      <width>1071</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <widget class="QPushLabel" name="lb_manga_add_icon">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>20</y>
+       <width>150</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <bold>false</bold>
+       <hintingpreference>PreferDefaultHinting</hintingpreference>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string>Иконка манги</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lb_manga_add_name">
+     <property name="geometry">
+      <rect>
+       <x>172</x>
+       <y>20</y>
+       <width>885</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Название манги</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_manga_add">
+     <property name="geometry">
+      <rect>
+       <x>968</x>
+       <y>682</y>
+       <width>88</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="lb_manga_add_description">
+     <property name="geometry">
+      <rect>
+       <x>172</x>
+       <y>90</y>
+       <width>885</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Описание манги</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_manga_editc">
+     <property name="geometry">
+      <rect>
+       <x>864</x>
+       <y>682</y>
+       <width>88</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Изменить</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_audio_path">
+     <property name="geometry">
+      <rect>
+       <x>174</x>
+       <y>250</y>
+       <width>451</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_select_audio">
+     <property name="geometry">
+      <rect>
+       <x>644</x>
+       <y>250</y>
+       <width>88</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Звук</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>250</y>
+       <width>163</width>
+       <height>175</height>
+      </rect>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>150</number>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string/>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>genre</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>4</y>
+       <width>1051</width>
+       <height>709</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_8</zorder>
+    <zorder>lb_manga_add_icon</zorder>
+    <zorder>lb_manga_add_name</zorder>
+    <zorder>btn_manga_add</zorder>
+    <zorder>lb_manga_add_description</zorder>
+    <zorder>btn_manga_editc</zorder>
+    <zorder>le_audio_path</zorder>
+    <zorder>btn_select_audio</zorder>
+    <zorder>tableWidget_2</zorder>
+   </widget>
+   <widget class="QFrame" name="current_manga_frame">
+    <property name="geometry">
+     <rect>
+      <x>211</x>
+      <y>1000</y>
+      <width>1071</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTabWidget" name="tabWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1071</width>
+       <height>720</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Профиль</string>
+      </attribute>
+      <widget class="QLabel" name="lb_current_manga_icon">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>4</y>
+         <width>200</width>
+         <height>280</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_current_manga_name">
+       <property name="geometry">
+        <rect>
+         <x>218</x>
+         <y>4</y>
+         <width>813</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <fontweight>Medium</fontweight>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="lb_current_manga_description">
+       <property name="geometry">
+        <rect>
+         <x>218</x>
+         <y>80</y>
+         <width>813</width>
+         <height>205</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="overwriteMode">
+        <bool>false</bool>
+       </property>
+       <property name="cursorWidth">
+        <number>0</number>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PB_Play">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>292</y>
+         <width>88</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Старт</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PB_Stop">
+       <property name="geometry">
+        <rect>
+         <x>308</x>
+         <y>292</y>
+         <width>88</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Стоп</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_add_fav">
+       <property name="geometry">
+        <rect>
+         <x>418</x>
+         <y>292</y>
+         <width>173</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Добавить в избранное</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_del_fav">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>292</y>
+         <width>173</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Удалить из избранного</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_manga_rating">
+       <property name="geometry">
+        <rect>
+         <x>766</x>
+         <y>292</y>
+         <width>149</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_rating">
+       <property name="geometry">
+        <rect>
+         <x>916</x>
+         <y>292</y>
+         <width>113</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="qpb_rating_add">
+       <property name="geometry">
+        <rect>
+         <x>1028</x>
+         <y>292</y>
+         <width>31</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ок</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_manga_edit">
+       <property name="geometry">
+        <rect>
+         <x>862</x>
+         <y>650</y>
+         <width>88</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Изменить</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_manga_delete">
+       <property name="geometry">
+        <rect>
+         <x>964</x>
+         <y>650</y>
+         <width>88</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_manga_genre">
+       <property name="geometry">
+        <rect>
+         <x>218</x>
+         <y>42</y>
+         <width>815</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Отзывы</string>
+      </attribute>
+      <widget class="QTableWidget" name="tableWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>32</y>
+         <width>800</width>
+         <height>369</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::NoSelection</enum>
+       </property>
+       <property name="showGrid">
+        <bool>false</bool>
+       </property>
+       <property name="columnCount">
+        <number>1</number>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column/>
+      </widget>
+      <widget class="QPushButton" name="qpb_add_new_review">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>2</y>
+         <width>123</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Добавить отзыв</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="qpb_del_review">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>2</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Удалить отзыв</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Главы</string>
+      </attribute>
+      <widget class="QTableWidget" name="tableWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>6</y>
+         <width>1067</width>
+         <height>655</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::NoSelection</enum>
+       </property>
+       <property name="showGrid">
+        <bool>false</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>id</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Глава</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>№</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Название</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QPushButton" name="qpb_add_chapter">
+       <property name="geometry">
+        <rect>
+         <x>943</x>
+         <y>662</y>
+         <width>119</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Добавить главу</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="anime_frame">
+    <property name="geometry">
+     <rect>
+      <x>188</x>
+      <y>1000</y>
+      <width>1092</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>46</y>
+       <width>649</width>
+       <height>629</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/new/prefix1/Pic/x_BME5b_DCE.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1280</width>
+       <height>720</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/new/prefix1/Pic/2R29wny3fUk.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>authorization_frame</zorder>
+   <zorder>main_frame</zorder>
+   <zorder>profile_frame</zorder>
+   <zorder>manga_frame</zorder>
+   <zorder>manga_add_frame</zorder>
+   <zorder>current_manga_frame</zorder>
+   <zorder>anime_frame</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QPushLabel</class>
+   <extends>QLabel</extends>
+   <header>qpushlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
